@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- ================= SEO: PRIMARY META ================= -->
+<title>Marat Gukasyan — Multi-Media Artist | Drawing &amp; Gilded Sculpture</title>
+<meta name="description" content="Marat Gukasyan is a multi-media artist working between drawing and gilded sculpture, examining control, propaganda, the mother goddess, and collective trauma through traditional and ancient artistic practice.">
+<meta name="author" content="Marat Gukasyan">
+<link rel="canonical" href="https://maratgukasyan.com/">
+<meta name="robots" content="index, follow">
+
+<!-- ================= SEO: OPEN GRAPH ================= -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Marat Gukasyan — Multi-Media Artist">
+<meta property="og:description" content="Drawing and gilded sculpture exploring control, propaganda, the mother goddess, and collective trauma.">
+<meta property="og:url" content="https://maratgukasyan.com/">
+<meta property="og:image" content="https://maratgukasyan.com/assets/og-cover.jpg">
+<meta property="og:site_name" content="Marat Gukasyan">
+
+<!-- ================= SEO: TWITTER CARD ================= -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Marat Gukasyan — Multi-Media Artist">
+<meta name="twitter:description" content="Drawing and gilded sculpture exploring control, propaganda, the mother goddess, and collective trauma.">
+<meta name="twitter:image" content="https://maratgukasyan.com/assets/og-cover.jpg">
+
+<!-- ================= FAVICON ================= -->
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' fill='%2317171a'/%3E%3Ctext x='50' y='68' font-size='60' fill='%23f3f2ef' text-anchor='middle' font-family='serif'%3EM%3C/text%3E%3C/svg%3E">
+
+<!-- ================= SEO: STRUCTURED DATA (Person / Artist) ================= -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Marat Gukasyan",
+  "url": "https://maratgukasyan.com",
+  "jobTitle": "Multi-Media Artist",
+  "description": "Marat Gukasyan is a multi-media artist working between drawing and gilded sculpture, exploring control, propaganda, the mother goddess, and collective trauma through traditional and ancient artistic practice.",
+  "sameAs": [
+    "https://www.instagram.com/maratgukasyan.studio"
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "itemListElement": [
+    {
+      "@type": "Product",
+      "name": "Gilding, Study I — Archival Print",
+      "description": "Fine-art archival print from an ongoing photography collaboration documenting Marat Gukasyan's gilded sculptural work.",
+      "offers": { "@type": "Offer", "price": "180", "priceCurrency": "USD", "availability": "https://schema.org/InStock" }
+    },
+    {
+      "@type": "Product",
+      "name": "Mother, Bound — Detail — Archival Print",
+      "description": "Fine-art archival print from an ongoing photography collaboration documenting Marat Gukasyan's gilded sculptural work.",
+      "offers": { "@type": "Offer", "price": "180", "priceCurrency": "USD", "availability": "https://schema.org/InStock" }
+    },
+    {
+      "@type": "Product",
+      "name": "Vessel, Reverse — Archival Print",
+      "description": "Fine-art archival print from an ongoing photography collaboration documenting Marat Gukasyan's gilded sculptural work.",
+      "offers": { "@type": "Offer", "price": "120", "priceCurrency": "USD", "availability": "https://schema.org/InStock" }
+    }
+  ]
+}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital@0;1&family=Work+Sans:wght@300;400;500&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#f3f2ef;
+    --paper-2:#ece9e3;
+    --ink:#17171a;
+    --moss:#5c6650;
+    --gilt:#8b8a85;
+    --stone:#8b8a85;
+    --line:#ddd9d2;
+  }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  html{scroll-behavior:smooth;}
+  body{
+    background:var(--paper);
+    color:var(--ink);
+    font-family:'Work Sans', sans-serif;
+    -webkit-font-smoothing:antialiased;
+    overflow-x:hidden;
+  }
+  ::selection{ background:var(--moss); color:var(--paper); }
+  a{ color:inherit; }
+  img{ max-width:100%; display:block; }
+
+  body::before{
+    content:""; position:fixed; inset:0; pointer-events:none; z-index:1; opacity:.35;
+    background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.05'/%3E%3C/svg%3E");
+  }
+
+  /* ---------- HEADER: single horizontal line, all items always visible ---------- */
+  header{
+    position:sticky; top:0; left:0; right:0; z-index:40;
+    display:flex; align-items:center; justify-content:flex-end;
+    flex-wrap:wrap;
+    gap:12px 28px;
+    padding:22px 40px;
+    background:var(--paper);
+    border-bottom:1px solid var(--line);
+  }
+  nav{ display:flex; gap:clamp(14px, 2.6vw, 30px); align-items:center; flex-wrap:wrap; }
+  nav button{
+    background:none; border:none; font-family:'Work Sans', sans-serif; font-size:11.5px;
+    letter-spacing:.12em; text-transform:uppercase; color:var(--stone); cursor:pointer;
+    padding:4px 0; position:relative; transition:color .3s ease;
+    white-space:nowrap;
+  }
+  nav button:hover, nav button:focus-visible{ color:var(--ink); }
+  nav button.active{ color:var(--ink); }
+  nav button.active::after{ content:""; position:absolute; left:0; right:0; bottom:-3px; height:1px; background:var(--ink); }
+  nav button:focus-visible{ outline:1px solid var(--ink); outline-offset:4px; }
+
+  /* ---------- HERO ---------- */
+  .hero{ min-height:56vh; display:flex; flex-direction:column; justify-content:flex-end; padding:0 40px 64px; position:relative; }
+  .eyebrow{ display:block; font-family:'Work Sans', sans-serif; font-size:11px; letter-spacing:.16em; text-transform:uppercase; color:var(--stone); margin-bottom:18px; }
+  .hero h1{ font-family:'Libre Caslon Text', serif; font-weight:400; font-style:normal; font-size:clamp(38px, 7vw, 96px); line-height:1.03; letter-spacing:-.005em; color:var(--ink); }
+  .hero p{ margin-top:22px; max-width:460px; font-size:15px; line-height:1.7; color:var(--stone); font-weight:300; }
+
+  /* ---------- FEED ---------- */
+  main{ position:relative; z-index:2; }
+  .feed{ padding:0 20px 140px; columns:4 260px; column-gap:20px; }
+  @media (max-width:1100px){ .feed{ columns:3 220px; } }
+  @media (max-width:720px){ .feed{ columns:2 160px; column-gap:12px; padding:0 12px 100px; } }
+  @media (max-width:480px){ .feed{ columns:1; } }
+
+  .piece{ break-inside:avoid; margin-bottom:20px; position:relative; cursor:pointer; opacity:0; transform:translateY(24px); transition:opacity .7s ease, transform .7s ease; }
+  .piece.visible{ opacity:1; transform:translateY(0); }
+  .piece.hidden-cat{ display:none; }
+  .frame{ position:relative; width:100%; overflow:hidden; border-radius:2px; }
+  .frame img{ width:100%; height:auto; display:block; transition:transform 1.1s cubic-bezier(.16,1,.3,1); }
+  .frame .art{ width:100%; height:100%; display:flex; object-fit:cover; transition:transform 1.1s cubic-bezier(.16,1,.3,1); }
+  .piece:hover img, .piece:hover .art{ transform:scale(1.035); }
+  .label{ position:absolute; left:0; right:0; bottom:0; padding:16px 16px 14px; background:linear-gradient(180deg, rgba(23,23,26,0) 0%, rgba(23,23,26,.82) 78%); transform:translateY(100%); transition:transform .5s cubic-bezier(.16,1,.3,1); }
+  .piece:hover .label{ transform:translateY(0); }
+  .label .t{ font-family:'Libre Caslon Text', serif; font-style:normal; color:#fff; font-size:16px; margin-bottom:4px; }
+  .label .m{ font-family:'IBM Plex Mono', monospace; font-size:10.5px; letter-spacing:.05em; color:rgba(255,255,255,.72); text-transform:uppercase; }
+  .art{ display:flex; align-items:center; justify-content:center; font-family:'IBM Plex Mono', monospace; font-size:11px; letter-spacing:.08em; color:rgba(255,255,255,.5); text-transform:uppercase; }
+  .art.empty{ background:#fff; border:1px solid var(--line); }
+
+  /* ---------- STATIC PAGE VIEWS ---------- */
+  .page-view{ display:none; min-height:100vh; padding:72px 40px 120px; max-width:760px; }
+  .page-view--wide{ max-width:1080px; }
+  .page-view.active{ display:block; }
+  .page-view h2{ font-family:'Libre Caslon Text', serif; font-weight:400; font-style:normal; font-size:clamp(32px, 4.5vw, 48px); margin-bottom:34px; }
+  .page-view h3{ font-family:'Libre Caslon Text', serif; font-weight:400; font-style:normal; font-size:19px; margin:36px 0 14px; }
+  .page-view p{ font-size:16px; line-height:1.85; font-weight:300; color:#3a3a3a; margin-bottom:20px; max-width:600px; }
+
+  .about-illustration{
+    max-width:200px; margin:6px 0 20px 28px; float:right; clear:right;
+  }
+  .about-illustration img{ width:100%; height:auto; display:block; border:1px solid var(--line); padding:6px; background:#fff; box-shadow:0 1px 3px rgba(0,0,0,.08); }
+  .about-illustration figcaption{ margin-top:8px; font-family:'IBM Plex Mono', monospace; font-size:9.5px; letter-spacing:.06em; text-transform:uppercase; color:var(--stone); text-align:center; }
+  @media (max-width:640px){
+    .about-illustration{ float:none; max-width:220px; margin:20px auto; }
+  }
+
+  .divider{ border:none; border-top:1px solid var(--line); margin:48px 0 44px; max-width:600px; }
+  .essay{ max-width:620px; }
+  .essay-title{ font-family:'Libre Caslon Text', serif; font-weight:400; font-style:normal; font-size:30px; margin:14px 0 10px; }
+  .essay-byline{ font-family:'IBM Plex Mono', monospace; font-size:11px; letter-spacing:.06em; text-transform:uppercase; color:var(--stone); margin-bottom:30px; }
+  .essay p{ font-family:'Libre Caslon Text', serif; font-weight:400; font-size:17px; line-height:1.85; color:#2c2c2c; text-align:justify; margin-bottom:24px; max-width:600px; }
+  .essay p.essay-lead::first-letter{ font-size:3.6em; float:left; line-height:0.8; padding:6px 8px 0 0; font-family:'Libre Caslon Text', serif; color:var(--ink); }
+  .essay .about-illustration{ margin:6px 0 20px 28px; }
+  .page-view p a{ text-decoration:none; border-bottom:1px solid var(--ink); }
+  .page-view p a:hover{ color:var(--moss); border-color:var(--moss); }
+
+  /* ---------- SHOP: Collaborations purchasable items ---------- */
+  .shop-grid{ display:grid; grid-template-columns:repeat(auto-fill, minmax(220px, 1fr)); gap:24px; margin:28px 0 50px; }
+  .shop-card{ background:#fff; border:1px solid var(--line); }
+  .shop-card--soon .art{ opacity:.6; }
+  .credit-lines{ font-family:'IBM Plex Mono', monospace !important; font-size:11px !important; letter-spacing:.04em; text-transform:uppercase; color:var(--stone) !important; line-height:1.8 !important; margin-top:-10px !important; }
+  .shop-card .info{ padding:16px 16px 18px; }
+  .shop-card .t{ font-family:'Libre Caslon Text', serif; font-size:15px; margin-bottom:4px; }
+  .shop-card .m{ font-family:'IBM Plex Mono', monospace; font-size:10.5px; letter-spacing:.04em; color:var(--stone); text-transform:uppercase; margin-bottom:14px; }
+  .shop-card .row{ display:flex; align-items:center; justify-content:space-between; gap:10px; }
+  .price{ font-family:'IBM Plex Mono', monospace; font-size:13px; color:var(--ink); }
+  .price.muted{ color:var(--stone); font-size:11px; letter-spacing:.04em; text-transform:uppercase; }
+  .buy-btn{
+    font-family:'Work Sans', sans-serif; font-size:11px; letter-spacing:.1em; text-transform:uppercase;
+    text-decoration:none; color:var(--ink); border:1px solid var(--ink); padding:8px 16px;
+    transition:background .3s ease, color .3s ease;
+  }
+  .buy-btn:hover{ background:var(--ink); color:#fff; }
+
+  .contact-list{ margin-top:32px; list-style:none; }
+  .contact-list li{ border-top:1px solid var(--line); padding:18px 0; display:flex; justify-content:space-between; align-items:baseline; font-family:'IBM Plex Mono', monospace; font-size:12.5px; letter-spacing:.04em; }
+  .contact-list li:last-child{ border-bottom:1px solid var(--line); }
+  .contact-list span:first-child{ color:var(--stone); text-transform:uppercase; }
+  .contact-list a{ text-decoration:none; border-bottom:1px solid var(--ink); }
+  .contact-list a:hover{ color:var(--moss); border-color:var(--moss); }
+
+  /* commission form */
+  .form-note{ font-family:'IBM Plex Mono', monospace; font-size:11px; letter-spacing:.05em; color:var(--stone); text-transform:uppercase; margin-bottom:6px; }
+  form.commission{ margin-top:44px; max-width:520px; }
+  .field{ margin-bottom:26px; }
+  .field label{ display:block; font-family:'IBM Plex Mono', monospace; font-size:11px; letter-spacing:.08em; text-transform:uppercase; color:var(--stone); margin-bottom:10px; }
+  .field input, .field select, .field textarea{
+    width:100%; background:transparent; border:none; border-bottom:1px solid var(--line);
+    padding:10px 0; font-family:'Work Sans', sans-serif; font-size:15px; color:var(--ink);
+    font-weight:300; transition:border-color .3s ease;
+  }
+  .field input:focus, .field select:focus, .field textarea:focus{ outline:none; border-color:var(--ink); }
+  .field textarea{ resize:vertical; min-height:100px; }
+  .field input:disabled{ color:var(--stone); border-color:var(--line); cursor:not-allowed; }
+  .field input[type="file"]{ font-family:'Work Sans', sans-serif; font-size:13px; color:var(--stone); padding:10px 0 4px; border-bottom:1px solid var(--line); }
+  .field-note{ margin-top:10px; font-family:'IBM Plex Mono', monospace; font-size:10.5px; letter-spacing:.02em; line-height:1.6; color:var(--stone); }
+  .submit-btn{
+    background:var(--ink); color:var(--paper); border:none; padding:15px 34px;
+    font-family:'Work Sans', sans-serif; font-size:12px; letter-spacing:.12em; text-transform:uppercase;
+    cursor:pointer; transition:background .3s ease;
+  }
+  .submit-btn:hover{ background:var(--moss); }
+  .form-status{ margin-top:16px; font-family:'IBM Plex Mono', monospace; font-size:12px; letter-spacing:.03em; color:var(--moss); display:none; }
+  .form-status.show{ display:block; }
+
+  /* ---------- DETAIL MODAL ---------- */
+  .modal-backdrop{
+    position:fixed; inset:0; background:rgba(23,23,26,.92); z-index:100;
+    display:none; align-items:flex-start; justify-content:center;
+    overflow-y:auto; padding:80px 20px;
+  }
+  .modal-backdrop.open{ display:flex; }
+  .modal{ background:var(--paper); max-width:920px; width:100%; position:relative; }
+  .modal-close{
+    position:absolute; top:18px; right:18px; z-index:5; background:var(--ink); color:#fff;
+    border:none; width:34px; height:34px; font-size:16px; cursor:pointer; border-radius:50%;
+  }
+  .modal-body{ display:grid; grid-template-columns:1.3fr 1fr; }
+  @media (max-width:720px){ .modal-body{ grid-template-columns:1fr; } }
+  .modal-images .art{ height:420px; }
+  .modal-images img{ cursor:zoom-in; }
+  .modal-zoom-note{ padding:12px 16px; font-family:'IBM Plex Mono', monospace; font-size:10.5px; letter-spacing:.06em; text-transform:uppercase; color:var(--stone); text-align:center; background:var(--paper-2); }
+  .modal-info{ padding:40px 34px; }
+  .modal-info h3{ font-family:'Libre Caslon Text', serif; font-style:normal; font-weight:400; font-size:26px; margin-bottom:10px; }
+  .modal-info .meta{ font-family:'IBM Plex Mono', monospace; font-size:11px; letter-spacing:.05em; color:var(--stone); text-transform:uppercase; margin-bottom:6px; }
+  .modal-info .meta:last-of-type{ margin-bottom:24px; }
+  .modal-info .status{ display:inline-block; font-family:'IBM Plex Mono', monospace; font-size:10.5px; letter-spacing:.08em; text-transform:uppercase; padding:6px 12px; border:1px solid var(--line); margin-bottom:24px; }
+  .modal-info p{ font-size:14.5px; line-height:1.8; font-weight:300; color:#3a3a3a; margin-bottom:28px; }
+  .modal-cta{ display:inline-block; background:var(--ink); color:#fff; text-decoration:none; padding:14px 26px; font-family:'Work Sans', sans-serif; font-size:12px; letter-spacing:.1em; text-transform:uppercase; transition:background .3s ease; }
+  .modal-cta:hover{ background:var(--moss); }
+
+  main#feed-view.active{ display:block; }
+  main#feed-view{ display:none; }
+
+  footer{ padding:40px; text-align:center; font-family:'IBM Plex Mono', monospace; font-size:10.5px; letter-spacing:.1em; color:var(--stone); text-transform:uppercase; }
+
+  @media (max-width:640px){
+    header{ padding:16px 20px; gap:10px 20px; }
+    nav{ gap:14px 20px; }
+    .hero{ padding:0 20px 48px; }
+    .page-view{ padding:64px 20px 90px; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <nav id="nav">
+    <button data-cat="drawing">Drawings &amp; Paintings</button>
+    <button data-cat="sculpture">Sculpture</button>
+    <button data-cat="collaborations" data-page="collaborations">Collaborations</button>
+    <button data-cat="about" data-page="about">About</button>
+    <button data-cat="contact" data-page="contact">Commissions</button>
+  </nav>
+</header>
+
+<main id="feed-view" class="active">
+  <div class="hero">
+    <span class="eyebrow">Artist</span>
+    <h1>Marat<br>Gukasyan</h1>
+  </div>
+  <div class="feed" id="feed"></div>
+</main>
+
+<!-- ================= COLLABORATIONS ================= -->
+<div class="page-view page-view--wide" id="collaborations-view">
+  <span class="eyebrow">Collaborations</span>
+  <h2>The Illumination</h2>
+  <p>A fine art photograph of an original sculpture by Marat Gukasyan, captured on analogue film and inverted from the original film negative by Xenia Chetrar. Each image is printed as a high-quality Giclée fine art print using archival pigment inks on fine art photographic paper, preserving the sculptural texture, tonal range and distinctive grain of the original film photograph.</p>
+  <p class="credit-lines">Sculpture by Marat Gukasyan<br>Photography by Xenia Chetrar</p>
+
+  <div class="shop-grid">
+    <div class="shop-card">
+      <div class="art"><img src="assets/print-figure-I.jpg" alt="Illumination, Figure I — archival Giclée print, photograph by Xenia Chetrar" style="width:100%; height:100%; object-fit:cover; display:block;"></div>
+      <div class="info">
+        <div class="t">Illumination. Figure I</div>
+        <div class="m">Archival Giclée pigment print on Hahnemühle Baryta paper</div>
+        <div class="field" style="margin:14px 0;">
+          <label for="print1-size" style="font-size:10px;">Size</label>
+          <select id="print1-size" class="size-select">
+            <option>30 × 42 cm — £200</option>
+          </select>
+        </div>
+        <div class="row"><span class="price">£200</span><a href="mailto:studio@maratgukasyan.com?subject=Print%20order%20—%20Illumination.%20Figure%20I&body=I'd%20like%20to%20order%3A%0A%0APrint%3A%20Illumination.%20Figure%20I%0ASize%3A%2030%20x%2042cm%2C%20%C2%A3200%0A%0AName%3A%0AShipping%20address%3A" class="buy-btn">Order</a></div>
+      </div>
+    </div>
+    <div class="shop-card">
+      <div class="art"><img src="assets/print-figure-II.jpg" alt="Illumination, Figure II — archival Giclée print, photograph by Xenia Chetrar" style="width:100%; height:100%; object-fit:cover; display:block;"></div>
+      <div class="info">
+        <div class="t">Illumination. Figure II</div>
+        <div class="m">Archival Giclée pigment print on Hahnemühle Baryta paper</div>
+        <div class="field" style="margin:14px 0;">
+          <label for="print2-size" style="font-size:10px;">Size</label>
+          <select id="print2-size" class="size-select">
+            <option>30 × 42 cm — £200</option>
+          </select>
+        </div>
+        <div class="row"><span class="price">£200</span><a href="mailto:studio@maratgukasyan.com?subject=Print%20order%20—%20Illumination.%20Figure%20II&body=I'd%20like%20to%20order%3A%0A%0APrint%3A%20Illumination.%20Figure%20II%0ASize%3A%2030%20x%2042cm%2C%20%C2%A3200%0A%0AName%3A%0AShipping%20address%3A" class="buy-btn">Order</a></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ================= ABOUT ================= -->
+<div class="page-view" id="about-view">
+  <span class="eyebrow">About</span>
+  <h2>Marat Gukasyan</h2>
+  <p>Marat Gukasyan is an artist based in London, UK. He works across mixed media and gilded sculpture, drawing inspiration from ancient and medieval art practices.</p>
+
+  <hr class="divider">
+
+  <article class="essay">
+    <span class="eyebrow">Essay</span>
+    <h3 class="essay-title">A Modern Medieval</h3>
+    <p class="essay-byline">By Marleen Boschen — curator, researcher and artist based in London</p>
+
+    <figure class="about-illustration">
+      <img src="assets/drawing-inside.jpg" alt="Inside, mixed media on paper, illustrating the essay below">
+      <figcaption>Inside</figcaption>
+    </figure>
+
+    <p class="essay-lead">All-seeing eyes everywhere. A small mushroom cloud in the background. A motherly, or sisterly, figure is carefully holding a world in her belly. A village in ruins. We see all this in bold colours, ornately patterned. These abstract patterns turn into barbed wire and surveillance, post-Soviet landscapes fold inwards and dissolve like a feverish dream that holds the past and the future.</p>
+
+    <p>Taking the visual language of contemporary political and media messaging into a world where demons and spirits roam freely Marat's artworks ask: How do today's screen-mediated lives feel on the pages of a medieval manuscript? What might a modern medieval and its symbols look like in the war-fuelled and complicated year of 2024? At times liberating, at times sinister, often playful, these enchanted worlds are inhabited by shape-shifting forces that echo and distort classic archetypes: the witch, the priestess, the heroine, the sister.</p>
+
+    <p>Landscapes and minds ravaged by war appear across Marat's intricate drawings echoing medieval centuries but also evoking Russia's ongoing war on Ukraine. There's a sense of paranoia and suspicion that can be felt from the characters inhabiting these worlds – trust no one. Even the all-seeing eyes appear concerned and authoritative at once, the priestesses aren't fully relaxed.</p>
+
+    <p>There's a buzz in the air. The signal from the big bang continues to transmit, long gone moments in the past linger, an 80s TV on static. A flickering image of a pre-Christian Russia that carries older lived experiences of survival, brutal winter, endurance and sacrifice. In a spiralling present when we increasingly turn to astrology, tarot or the iChing for revelations, Marat's works embrace a different kind of divination. He summons a world where only female beings roam, part feminist sanctuary, part revenge fantasy. Here, ancient mythologies are rewritten to make sense of a densely saturated present, where white cats might tell secrets and technologies combust.</p>
+  </article>
+
+  <h3>Contact</h3>
+  <p><a href="mailto:studio@maratgukasyan.com">studio@maratgukasyan.com</a></p>
+</div>
+
+<!-- ================= CONTACT / COMMISSIONS ================= -->
+<div class="page-view" id="contact-view">
+  <span class="eyebrow">Commissions</span>
+  <h2>Request a piece</h2>
+  <p>Marat accepts a limited number of commissions each year, in gilded sculpture. Most projects begin with a short exchange about scale, subject, and material — the quality of the gold, the gesso, and the mounting of natural crystals — followed by a preliminary sketch or maquette before work begins. A deposit is required to confirm a commission; timelines vary by scale and typically run 8–20 weeks for sculptural work.</p>
+
+  <form class="commission" id="commissionForm">
+    <div class="form-note">Request a piece</div>
+    <div class="field">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" required>
+    </div>
+    <div class="field">
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required>
+    </div>
+    <div class="field">
+      <label>Piece type</label>
+      <input type="text" value="Gilded sculpture" disabled>
+    </div>
+    <div class="field">
+      <label for="budget">Approximate budget</label>
+      <select id="budget" name="budget">
+        <option>£500</option>
+        <option>£1,000</option>
+        <option>£1,500</option>
+      </select>
+    </div>
+    <div class="field">
+      <label for="message">Tell me about the piece</label>
+      <textarea id="message" name="message" placeholder="Subject, scale, timeline, or reference works you're drawn to."></textarea>
+    </div>
+    <button type="submit" class="submit-btn">Send request</button>
+    <p id="formStatus" class="form-status"></p>
+  </form>
+
+  <ul class="contact-list">
+    <li><span>Email</span><a href="mailto:studio@maratgukasyan.com">studio@maratgukasyan.com</a></li>
+    <li><span>Instagram</span><a href="https://instagram.com/maratgukasyan.studio" target="_blank" rel="noopener">@maratgukasyan.studio</a></li>
+    <li><span>Studio</span><span>By appointment only</span></li>
+  </ul>
+</div>
+
+<!-- ================= DETAIL MODAL ================= -->
+<div class="modal-backdrop" id="modalBackdrop">
+  <div class="modal">
+    <button class="modal-close" id="modalClose" aria-label="Close">&times;</button>
+    <div class="modal-body">
+      <div class="modal-images">
+        <a id="modalImgLink" href="#" target="_blank" rel="noopener" style="display:block;">
+          <div class="art empty" id="modalMainImg" style="height:420px;"></div>
+        </a>
+        <div class="modal-zoom-note" id="modalZoomNote">Click the image to view full size</div>
+      </div>
+      <div class="modal-info">
+        <div class="status" id="modalStatus">Available</div>
+        <h3 id="modalTitle">Untitled</h3>
+        <div class="meta" id="modalMeta">Medium, Year</div>
+        <div class="meta" id="modalCredit" style="display:none;"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer>© 2026 Marat Gukasyan — All works reserved</footer>
+
+<script>
+  const pieces = [
+    { cat:"drawing", title:"The Magic", medium:"Mixed media on paper", size:"32 × 50 cm", year:"2025", h:440, img:"assets/drawing-the-magic.jpg", full:"assets/drawing-the-magic-full.jpg", status:"Private collection" },
+    { cat:"drawing", title:"Bad News", medium:"Acrylic, ink, and gold leaf on paper", size:"30 × 42 cm", year:"2024", h:420, img:"assets/drawing-bad-news.jpg", full:"assets/drawing-bad-news-full.jpg" },
+    { cat:"drawing", title:"Mother's House", medium:"Ink, gouache, and gold leaf on paper", size:"21 × 30 cm", year:"2024–2026", h:440, img:"assets/drawing-mothers-house.jpg", full:"assets/drawing-mothers-house-full.jpg" },
+    { cat:"sculpture", title:"Untitled (Feather)", medium:"Gilded and silvered mixed media", year:"2026", h:420, img:"assets/sculpture-feather-01.jpg", full:"assets/sculpture-feather-01-full.jpg", status:"available", credit:"Photo by Xenia Chetrar" },
+    { cat:"drawing", title:"Propaganda Head", medium:"Ink, watercolour, gold leaf, charcoal, and money on paper", size:"40.5 × 57 cm", year:"2025", h:400, img:"assets/drawing-propaganda-head.jpg", full:"assets/drawing-propaganda-head-full.jpg" },
+    { cat:"drawing", title:"Unnamed I", medium:"Coloured pencil on paper", size:"30 × 21 cm", year:"2022", h:280, img:"assets/drawing-unnamed-1.jpg", full:"assets/drawing-unnamed-1-full.jpg" },
+    { cat:"sculpture", title:"Untitled (Horns)", medium:"Gilded mixed media", year:"2026", h:440, img:"assets/sculpture-horns-02.jpg", full:"assets/sculpture-horns-02-full.jpg", status:"available", credit:"Photo by Xenia Chetrar" },
+    { cat:"drawing", title:"Arrival", medium:"Charcoal and liquid mirror on paper", size:"35.5 × 49.5 cm", year:"2025–2026", h:440, img:"assets/drawing-arrival.jpg", full:"assets/drawing-arrival-full.jpg" },
+    { cat:"drawing", title:"Bless and Save", medium:"Ink and watercolour on paper", size:"21 × 30 cm", year:"2023", h:280, img:"assets/drawing-bless-and-save.jpg", full:"assets/drawing-bless-and-save-full.jpg" },
+    { cat:"sculpture", title:"Untitled (Stack)", medium:"Gilded mixed media", year:"2026", h:400, img:"assets/sculpture-beads-03.jpg", full:"assets/sculpture-beads-03-full.jpg", status:"available", credit:"Photo by Xenia Chetrar" },
+    { cat:"drawing", title:"Inside", medium:"Coloured pencil, ink, watercolour, and gold leaf on paper", size:"57 × 40 cm", year:"2023", h:460, img:"assets/drawing-inside.jpg", full:"assets/drawing-inside-full.jpg" },
+    { cat:"sculpture", title:"Untitled (Vessel)", medium:"Gilded mixed media", year:"2026", h:420, img:"assets/sculpture-vessel-04.jpg", full:"assets/sculpture-vessel-04-full.jpg", status:"available", credit:"Photo by Xenia Chetrar" },
+    { cat:"drawing", title:"Propaganda", medium:"Coloured pencil and ink on paper", size:"29.5 × 42 cm", year:"2022", h:420, img:"assets/drawing-propaganda.jpg", full:"assets/drawing-propaganda-full.jpg" },
+    { cat:"drawing", title:"Signals", medium:"Ink, watercolour, and gold leaf on paper", size:"29.5 × 41 cm", year:"", h:400, img:"assets/drawing-signals.jpg", full:"assets/drawing-signals-full.jpg" },
+    { cat:"sculpture", title:"Untitled (Candle)", medium:"Gilded and silvered mixed media", year:"2026", h:440, img:"assets/sculpture-candle-05.jpg", full:"assets/sculpture-candle-05-full.jpg", status:"available", credit:"Photo by Xenia Chetrar" },
+    { cat:"drawing", title:"Two Head Figure", medium:"Watercolour and ink on paper", size:"22 × 37 cm", year:"2022–2023", h:440, img:"assets/drawing-two-head-figure.jpg", full:"assets/drawing-two-head-figure-full.jpg" },
+    { cat:"drawing", title:"Under Contor", medium:"Ink, watercolour, gold leaf, and silver leaf on paper", size:"35 × 50 cm", year:"2025", h:400, img:"assets/drawing-under-contor.jpg", full:"assets/drawing-under-contor-full.jpg" },
+    { cat:"drawing", title:"Unnamed II", medium:"Coloured pencil on paper", size:"30 × 21 cm", year:"2022", h:280, img:"assets/drawing-unnamed-2.jpg", full:"assets/drawing-unnamed-2-full.jpg" },
+    { cat:"drawing", title:"Unnamed III", medium:"Coloured pencil on paper", size:"21 × 30 cm", year:"2022", h:400, img:"assets/drawing-unnamed-3.jpg", full:"assets/drawing-unnamed-3-full.jpg" },
+    { cat:"drawing", title:"Unnamed IV", medium:"Coloured pencil on paper", size:"21 × 30 cm", year:"2022", h:420, img:"assets/drawing-unnamed-4.jpg", full:"assets/drawing-unnamed-4-full.jpg" },
+    { cat:"drawing", title:"Unnamed V", medium:"Coloured pencil and gold ink on paper", size:"18 × 28 cm", year:"2022", h:440, img:"assets/drawing-unnamed-5.jpg", full:"assets/drawing-unnamed-5-full.jpg" },
+  ];
+
+  const feed = document.getElementById('feed');
+  pieces.forEach((p, i) => {
+    const el = document.createElement('div');
+    el.className = 'piece';
+    el.dataset.cat = p.cat;
+    el.dataset.index = i;
+    const visual = p.img
+      ? `<img src="${p.img}" alt="${p.title}, ${p.medium}" loading="lazy">`
+      : `<div class="art empty" style="height:100%;"></div>`;
+    const frameStyle = p.img ? '' : `style="height:${p.h}px"`;
+    const sizePart = p.size ? `${p.size}, ` : '';
+    const metaLine = p.year ? `${sizePart}${p.medium}, ${p.year}` : `${sizePart}${p.medium}`;
+    el.innerHTML = `
+      <div class="frame" ${frameStyle}>
+        ${visual}
+        <div class="label">
+          <div class="t">${p.title}</div>
+          <div class="m">${metaLine}</div>
+        </div>
+      </div>`;
+    el.addEventListener('click', () => openModal(i));
+    feed.appendChild(el);
+  });
+
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
+  }, { threshold: 0.12 });
+  document.querySelectorAll('.piece').forEach(p => io.observe(p));
+
+  // modal
+  const modalBackdrop = document.getElementById('modalBackdrop');
+  function openModal(i){
+    const p = pieces[i];
+    const mainImg = document.getElementById('modalMainImg');
+    const imgLink = document.getElementById('modalImgLink');
+    const zoomNote = document.getElementById('modalZoomNote');
+    if (p.img) {
+      mainImg.style.background = 'none';
+      mainImg.style.border = 'none';
+      mainImg.style.height = 'auto';
+      mainImg.innerHTML = `<img src="${p.img}" alt="${p.title}, ${p.medium}" style="width:100%; height:auto; display:block;">`;
+      imgLink.href = p.full || p.img;
+      imgLink.style.pointerEvents = 'auto';
+      zoomNote.style.display = 'block';
+    } else {
+      mainImg.style.background = '#fff';
+      mainImg.style.border = '1px solid var(--line)';
+      mainImg.style.height = '420px';
+      mainImg.innerHTML = '';
+      imgLink.href = 'javascript:void(0)';
+      imgLink.style.pointerEvents = 'none';
+      zoomNote.style.display = 'none';
+    }
+    document.getElementById('modalTitle').textContent = p.title;
+    const modalSizePart = p.size ? `${p.size}, ` : '';
+    const modalMetaBase = p.year ? `${modalSizePart}${p.medium}, ${p.year}` : `${modalSizePart}${p.medium}`;
+    document.getElementById('modalMeta').textContent = modalMetaBase;
+    const creditEl = document.getElementById('modalCredit');
+    if (p.credit) { creditEl.textContent = p.credit; creditEl.style.display = 'block'; }
+    else { creditEl.textContent = ''; creditEl.style.display = 'none'; }
+    document.getElementById('modalStatus').textContent = p.status || '';
+    document.getElementById('modalStatus').style.display = p.status ? 'inline-block' : 'none';
+    modalBackdrop.classList.add('open');
+  }
+  document.getElementById('modalClose').addEventListener('click', () => modalBackdrop.classList.remove('open'));
+  modalBackdrop.addEventListener('click', (e) => { if (e.target === modalBackdrop) modalBackdrop.classList.remove('open'); });
+
+  // nav
+  const navButtons = document.querySelectorAll('nav button[data-cat]');
+  const feedView = document.getElementById('feed-view');
+  const pageViews = document.querySelectorAll('.page-view');
+
+  const allPieces = () => document.querySelectorAll('.piece');
+
+  function showFeed(){ feedView.classList.add('active'); pageViews.forEach(v => v.classList.remove('active')); }
+  function showPage(id){ feedView.classList.remove('active'); pageViews.forEach(v => v.classList.toggle('active', v.id === id)); }
+  function setActive(btn){ navButtons.forEach(b => b.classList.remove('active')); if (btn) btn.classList.add('active'); }
+
+  navButtons.forEach(btn => {
+    btn.addEventListener('click', () => {
+      const page = btn.dataset.page;
+      const cat = btn.dataset.cat;
+      closeMobileNav();
+      if (page) { showPage(`${page}-view`); setActive(btn); window.scrollTo({top:0, behavior:'smooth'}); return; }
+      showFeed();
+      const isActive = btn.classList.contains('active');
+      if (isActive) { setActive(null); allPieces().forEach(p => p.classList.remove('hidden-cat')); }
+      else { setActive(btn); allPieces().forEach(p => p.classList.toggle('hidden-cat', p.dataset.cat !== cat)); }
+      window.scrollTo({top:0, behavior:'smooth'});
+    });
+  });
+
+
+
+  function closeMobileNav(){ /* no-op: menu no longer collapses */ }
+
+  // commission form — no backend yet, so this opens a pre-filled email.
+  // To collect submissions directly instead, swap this for Formspree or Netlify Forms.
+  const commissionForm = document.getElementById('commissionForm');
+  const formStatus = document.getElementById('formStatus');
+  commissionForm.addEventListener('submit', (e) => {
+    e.preventDefault();
+    const name = document.getElementById('name').value.trim();
+    const email = document.getElementById('email').value.trim();
+    const type = 'Gilded sculpture';
+    const budget = document.getElementById('budget').value;
+    const message = document.getElementById('message').value.trim();
+
+    if (!name || !email) {
+      formStatus.textContent = 'Please fill in your name and email.';
+      formStatus.classList.add('show');
+      return;
+    }
+
+    const subject = encodeURIComponent(`Commission request — ${type}`);
+    const body = encodeURIComponent(
+      `Name: ${name}\nEmail: ${email}\nPiece type: ${type}\nBudget: ${budget}\n\n${message}`
+    );
+    window.location.href = `mailto:studio@maratgukasyan.com?subject=${subject}&body=${body}`;
+
+    formStatus.textContent = 'Opening your email client to send this request…';
+    formStatus.classList.add('show');
+  });
+</script>
+
+</body>
+</html>
